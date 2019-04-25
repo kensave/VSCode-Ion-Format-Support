@@ -30,11 +30,27 @@
                     ".ion"
                 ],
                 "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "fusion",
+                "aliases": [
+                    "Fusion",
+                    "fusion"
+                ],
+                "extensions": [
+                    ".fusion"
+                ],
+                "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
             {
                 "language": "ion",
+                "scopeName": "source.ion",
+                "path": "./syntaxes/ion.tmLanguage"
+            },
+            {
+                "language": "fusion",
                 "scopeName": "source.ion",
                 "path": "./syntaxes/ion.tmLanguage"
             }
